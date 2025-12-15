@@ -54,6 +54,32 @@ Files I changed or added during the fix:
 
 If you want this README adjusted (shorter/longer or with a different focus), tell me what to change and I will update it.
 
+
+**Submission Checklist**
+
+- **GitHub repository link:** https://github.com/RohanShrestha12/todos
+- **README:** This file contains a brief explanation of the approach, run instructions, and migration notes.
+- **Screenshots:** Please include the following screenshots in the `screenshots/` folder:
+	- `screenshots/todos_index.png` — Todos index page
+	- `screenshots/todos_create.png` — Create todo form (showing image upload)
+	- `screenshots/todos_edit.png` — Edit todo form (showing existing image preview)
+
+How to capture screenshots
+
+1. Run the application locally:
+```
+php artisan serve
+```
+2. Open `http://127.0.0.1:8000/todos` in your browser and capture the pages listed above.
+3. Save images to the `screenshots/` folder with the filenames indicated.
+4. Commit and push the images to your GitHub repository. Example commands:
+```
+git add screenshots/*
+git commit -m "Add screenshots for submission"
+git push origin main
+```
+
+If you want, I can create placeholder files and commit them for you, but actual screenshots must be captured from your running app (or provided by you).
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
